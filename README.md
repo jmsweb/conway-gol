@@ -1,7 +1,10 @@
 # Conway Game of Life (Java)
 ---
 ## Prerequisites
-
+- Operating System
+  - Windows (Tested no errors or failures, can build and run jar)
+  - Mac (Test failed, can build and run jar)
+  - Linux (Untested)
 - Java 9
 - JavaFX
   - The package should already included in Java9 installation.
@@ -10,16 +13,18 @@
 
 ## Installation
 
-Java and Maven knowledge is needed to execute this standalone application. SceneBuilder is not used to run this Java application but the software was helpful to visualize the layout in wireframe, quick lookups to FXML `Node` attributes and properties, and read/write to FXML file.
+Java and Maven knowledge is needed to execute this standalone application. SceneBuilder is not used to run this Java application but the software was helpful to visualize the layout in wireframe, quick lookups to FXML `Node` attributes and properties, and read/write to FXML file. Maven will download project dependencies from repo.maven.apache.org site, compile classes and run tests, and build to package the application as executable jar all-at-once. You will see application booting up and robot performing couple of mouse click tasks. That is the `test` phase in Maven process. After Maven complete the install, a executable jar will be generated.
 
 1. Clone `conway-gol` repository
 2. Change in `conway-gol` directory
-3. Run `mvn clean install` command
-   - This command will download project dependencies from repo.maven.apache.org site, compile and run tests, and build to package the application as executable jar all-at-once. You will see application booting up and robot performing couple of mouse click tasks. That is the `test` phase in Maven process. After this, a `target` folder is generated.
+3. Run either of the following command from a terminal:
+   - `mvn clean install` (Windows)
+   - `mvn clean install -DskipTests=true` (Mac OS)
 4. Execute either of the following command from a terminal:
    - `mvn exec:java -Dexec.mainClass=com.cnb.conway.App`
    - `java -jar target/conway-gol.jar`
 5. Execute `mvn test` to run test cases.
+   - Known issue with RobotFX behave differently on Mac that mouse is moved out of region only on Mac OS. 
 
 ## Usage
 

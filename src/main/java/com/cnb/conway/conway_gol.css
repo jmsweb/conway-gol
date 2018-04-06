@@ -1,0 +1,20 @@
+HBox.container_gameboard {
+	-fx-background-color: black, white;
+    -fx-padding: 0;
+}
+
+VBox {
+	-fx-alignment: center;
+}
+
+HBox.container_slider {
+	-fx-alignment: CENTER;
+	-fx-padding: 10 0 10 0;
+	-fx-spacing: 10;
+}
+
+HBox.container_button {
+	-fx-alignment: CENTER;
+	-fx-padding: 10 0 10 0;
+	-fx-spacing: 10;
+}

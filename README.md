@@ -13,7 +13,11 @@
 
 ## Installation
 
-Java and Maven knowledge is needed to execute this standalone application. SceneBuilder is not used to run this Java application but the software was helpful to visualize the layout in wireframe, quick lookups to FXML `Node` attributes and properties, and read/write to FXML file. Maven will download project dependencies from repo.maven.apache.org site, compile classes and run tests, and build to package the application as executable jar all-at-once. You will see application booting up and robot performing couple of mouse click tasks. That is the `test` phase in Maven process. After Maven complete the install, a executable jar will be generated.
+Java and Maven knowledge is needed to execute this standalone application. 
+
+SceneBuilder is not used to run this Java application but the software was helpful to visualize the layout in wireframe, quick lookups to FXML `Node` attributes and properties, and read/write to FXML file. 
+
+Maven will download project dependencies from repo.maven.apache.org site, compile classes and run tests, and build to package the application as executable jar all-at-once. You will see application booting up and robot performing couple of mouse click tasks. That is the `test` phase in Maven process. After Maven complete the install, a executable jar will be generated.
 
 1. Clone `conway-gol` repository
 2. Change in `conway-gol` directory

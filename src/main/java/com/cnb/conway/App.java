@@ -37,7 +37,7 @@ public class App extends Application implements ConwayInterface {
 			
 			stage.setTitle("Conway Game of Life Java/JavaFX 2.0");
 			stage.setScene(scene);
-			stage.setResizable(false);
+			stage.setResizable(true);
 			stage.show();
 
 			stage.setOnCloseRequest((new EventHandler<WindowEvent>() {

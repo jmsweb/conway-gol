@@ -11,6 +11,8 @@
 - Maven 3.3.9
 - JavaFX SceneBuilder 9(Optional)
 
+https://openjfx.io/openjfx-docs/
+
 ## Installation
 
 Java and Maven knowledge is needed to execute this standalone application. 
@@ -22,10 +24,11 @@ Maven will download project dependencies from repo.maven.apache.org site, compil
 1. Clone `conway-gol` repository
 2. Change in `conway-gol` directory
 3. Run either of the following command from a terminal:
-   - `mvn clean install` (Windows)
-   - `mvn clean install -DskipTests=true` (Mac OS)
+   - `mvn clean package` (Windows)
+   - `mvn clean package -DskipTests=true` (Mac OS)
 4. Execute either of the following command from a terminal:
    - `mvn exec:java -Dexec.mainClass=com.cnb.conway.App`
+   - `mvn clean javafx:run`
    - `java -jar target/conway-gol.jar`
 5. Execute `mvn test` to run test cases.
    - Known issue with RobotFX behave differently on Mac that mouse is moved out of region only on Mac OS. 

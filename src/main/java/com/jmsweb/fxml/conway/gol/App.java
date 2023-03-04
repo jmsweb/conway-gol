@@ -1,6 +1,6 @@
-package com.cnb.conway;
+package com.jmsweb.fxml.conway.gol;
 
-import com.cnb.conway.impl.ConwayInterface;
+import com.jmsweb.fxml.conway.gol.impl.ConwayInterface;
 
 import javafx.application.Application;
 import javafx.event.EventHandler;

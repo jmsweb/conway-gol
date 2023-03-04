@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>jmsweb</groupId>
-    <artifactId>conway-gol</artifactId>
+    <groupId>com.jmsweb.fxml</groupId>
+    <artifactId>conway.gol</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -48,10 +48,9 @@
     </dependencies>
 
     <build>
-        <finalName>conway-gol</finalName>
         <resources>
             <resource>
-                <directory>src/main/java</directory>
+                <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.fxml</include>
                     <include>**/*.css</include>
@@ -70,18 +69,18 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.cnb.conway.App</mainClass>
+                            <mainClass>com.jmsweb.fxml.conway.gol.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
             </plugin>
-
+            <!--   -->
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>com.cnb.conway.App</mainClass>
+                    <mainClass>com.jmsweb.fxml.conway.gol/com.jmsweb.fxml.conway.gol.App</mainClass>
                 </configuration>
             </plugin>
             <plugin>
@@ -89,7 +88,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.0</version>
                 <configuration>
-                    <mainClass>com.cnb.conway.App</mainClass>
+                    <mainClass>com.jmsweb.fxml.conway.gol/com.jmsweb.fxml.conway.gol.App</mainClass>
                 </configuration>
             </plugin>
         </plugins>

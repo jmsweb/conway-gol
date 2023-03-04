@@ -33,6 +33,12 @@ Maven will download project dependencies from repo.maven.apache.org site, compil
 5. Execute `mvn test` to run test cases.
    - Known issue with RobotFX behave differently on Mac that mouse is moved out of region only on Mac OS. 
 
+## Building
+
+Generate MacOS Application Structure `jpackage --type app-image --main-jar card-deck-1.0.0-SNAPSHOT.jar --input card-deck/target --dest build`
+Generate DMG File `jpackage --type dmg --main-jar card-deck-1.0.0-SNAPSHOT.jar --input card-deck/target --dest build`
+Generate PKG File `jpackage --type pkg --main-jar card-deck-1.0.0-SNAPSHOT.jar --input card-deck/target --dest build`
+
 ## Usage
 
 The application is simple because the UI contains 4 UI components: 3 Buttons and a Slider. It is not resizable, and exiting application can be done by clicking on exit button top-right corner of window.

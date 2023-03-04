@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.canvas.Canvas?>
 
-<Pane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.cnb.conway.controller.ConwayController">
+<Pane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.jmsweb.fxml.conway.gol.controller.ConwayController">
 	<VBox>
 		<HBox styleClass="container_gameboard">
 			<Pane fx:id="gameboard" />

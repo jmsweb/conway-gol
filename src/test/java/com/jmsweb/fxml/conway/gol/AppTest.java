@@ -1,6 +1,6 @@
-package com.cnb.conway;
+package com.jmsweb.fxml.conway.gol;
 
-import com.cnb.conway.impl.ConwayInterface;
+import com.jmsweb.fxml.conway.gol.impl.ConwayInterface;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import javafx.application.Platform;

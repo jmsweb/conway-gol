@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-Created-By: Apache Maven 3.5.3
-Built-By: jschwebke
-Build-Jdk: 9.0.4
-Main-Class: com.cnb.conway.App

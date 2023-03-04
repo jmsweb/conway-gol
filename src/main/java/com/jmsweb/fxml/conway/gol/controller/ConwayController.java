@@ -1,7 +1,6 @@
-package com.cnb.conway.controller;
+package com.jmsweb.fxml.conway.gol.controller;
 
-import com.cnb.conway.impl.ConwayInterface;
-
+import com.jmsweb.fxml.conway.gol.impl.ConwayInterface;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 import javafx.concurrent.Task;
